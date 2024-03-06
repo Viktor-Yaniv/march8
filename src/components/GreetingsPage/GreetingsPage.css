@@ -1,0 +1,53 @@
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .greetings-page {
+      position: relative;
+    }
+  
+    .gif-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .content {
+      position: relative; /* Чтобы контент отображался поверх гифки */
+      z-index: 1; /* Чтобы контент находился выше гифки */
+      text-align: center;
+    }
+  
+    h1 {
+        margin-top: -230px;
+      font-size: 2rem;
+    }
+    h3{
+        margin-top: -47px;
+    }
+  }
+
+  .h3colors {
+    animation: changeColor 0.8s infinite alternate;
+  }
+  
+  @keyframes changeColor {
+    0% {
+      color: #FF5733;
+    }
+    25% {
+      color: #33FF63;
+    }
+    50% {
+      color: #3363FF;
+    }
+    75% {
+      color: #FFE433;
+    }
+    100% {
+      color: #33FFE4;
+    }
+  }
+  
+  
