@@ -26,15 +26,15 @@ function HomePage() {
     <div className="home-page">
       <div className="background-image" /> {/* Фоновое изображение */}
       <div className="content" style={{ color: currentColor }}>
-        <h1>Введите ваше имя</h1>
+        <h1>שם שלך מתוקה</h1>
         <div className="input-container">
           <input
             type="text"
             value={name}
             onChange={handleInputChange}
-            placeholder="Введите ваше имя"
+            placeholder="שם"
           />
-          <Link to={`/greetings/${name}`} className="heart-button"></Link>
+          <Link to={`/greetings/${name}`} className="heart-button">קליק</Link>
         </div>
       </div>
     </div>
