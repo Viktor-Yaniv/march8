@@ -22,6 +22,12 @@ function HomePage() {
     return () => clearInterval(intervalId);
   }, []);
 
+  useEffect(() => {
+    if (name === 'גיסתי') {
+      window.location.href = '/ilana'; // Замените '/your-custom-page' на путь вашей страницы
+    }
+  }, [name]);
+
   return (
     <div className="home-page">
       <div className="background-image" /> {/* Фоновое изображение */}

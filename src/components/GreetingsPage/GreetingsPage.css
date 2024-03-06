@@ -31,23 +31,33 @@
   .h3colors {
     animation: changeColor 0.8s infinite alternate;
   }
-  
   @keyframes changeColor {
     0% {
-      color: #FF5733;
+      color: #FF5733; /* Оранжевый */
+      text-shadow: 0 0 10px #FF5733; /* Тень оранжевого цвета */
     }
-    25% {
-      color: #33FF63;
+    20% {
+      color: #FFC300; /* Жёлтый */
+      text-shadow: 0 0 10px #FFC300; /* Тень жёлтого цвета */
     }
-    50% {
-      color: #3363FF;
+    40% {
+      color: #FF5733; /* Оранжевый */
+      text-shadow: 0 0 10px #FF5733; /* Тень оранжевого цвета */
     }
-    75% {
-      color: #FFE433;
+    60% {
+      color: #C70039; /* Красный */
+      text-shadow: 0 0 10px #C70039; /* Тень красного цвета */
+    }
+    80% {
+      color: #900C3F; /* Тёмно-розовый */
+      text-shadow: 0 0 10px #900C3F; /* Тень тёмно-розового цвета */
     }
     100% {
-      color: #33FFE4;
+      color: #581845; /* Тёмный пурпурный */
+      text-shadow: 0 0 10px #581845; /* Тень тёмного пурпурного цвета */
     }
   }
+  
+  
   
   
