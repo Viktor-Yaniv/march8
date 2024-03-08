@@ -55,7 +55,7 @@ function IlanaPage() {
       }
     } else {
       // Неправильный ответ
-      setGreeting('מצטער, אבל את לא הכלה שלי.');
+      setGreeting('מצטער, אבל את לא גיסתי שלי.');
       setShowFeedback(true);
       setIsDisabled(false); // Разблокируем кнопку после неправильного ответа
       setTimeout(() => {
@@ -69,7 +69,7 @@ function IlanaPage() {
       setIsDisabled(true); // Блокируем кнопку после ответа на второй вопрос
       setTimeout(() => {
         setIsDisabled(false); // Разблокируем кнопку после 3 секунд
-      }, 3000);
+      }, 1000);
     }
   }, [questionIndex]);
 
