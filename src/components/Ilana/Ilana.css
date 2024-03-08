@@ -1,28 +1,35 @@
 .ilana-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100vh;
-  }
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
   
   .ilana-page img {
-    width: 200px; /* Регулируйте размер изображения по вашему усмотрению */
+    width: 100vh; /* Регулируйте размер изображения по вашему усмотрению */
     height: auto;
     margin-bottom: 20px;
   }
   
   .ilana-page .content {
     max-width: 400px;
+    color: rgb(32, 153, 42);
+    font-family: Arial, sans-serif; /* выберите подходящий шрифт */
+    font-size: 20px; /* измените размер шрифта по вашему вкусу */
+    text-align: justify; /* выравнивание по ширине */
+    line-height: 1.5; /* междустрочный интервал для лучшей читаемости */
   }
+  
   
   .ilana-page input {
     margin-top: 10px;
     padding: 8px;
     width: 200px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
   }
   
   .ilana-page button {
@@ -36,7 +43,7 @@
   }
   
   .ilana-page button:hover {
-    background-color: #0056b3;
+    background-color: #d323c7;
   }
   
   .ilana-page p {
